@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Animation Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Dark/Light Mode Toggle Button -->
+  <button id="themeToggle">🌙 Dark Mode</button>
+
+  <!-- Main Container -->
+  <div class="container">
+    <div class="sky light" id="sky">
+      <!-- Trees Background Layer -->
+      <div class="trees"></div>
+
+      <!-- Moving Track -->
+      <div class="track"></div>
+
+      <!-- Car Wrapper (centered) -->
+      <div class="car-wrapper" id="carWrapper">
+        <div class="car" id="car">
+          
+          <!-- Headlights -->
+          <div class="headlight left"></div>
+          <div class="headlight right"></div>
+
+          <!-- Wheels -->
+          <div class="wheel wheel1">
+            <img src="car_wheel_left.png" alt="Left Wheel" />
+          </div>
+          <div class="wheel wheel2">
+            <img src="car_wheel_right.png" alt="Right Wheel" />
+          </div>
+
+          <!-- Light Beams -->
+          <div class="light-beam left"></div>
+          <div class="light-beam right"></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
